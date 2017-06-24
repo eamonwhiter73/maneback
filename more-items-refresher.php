@@ -12,15 +12,15 @@ if(isset($_POST['lastNumRows'])) {
   $lastNumRows = $_POST['lastNumRows'];
 }
 
-/*$user = 'eamondev_root';
+$user = 'eamondev_root';
 $password = 'bonjour3';
 $db = 'eamondev_maneapp';
-$host = 'localhost';*/
-
-$user = 'root';
-$password = 'root';
-$db = 'maneapp';
 $host = 'localhost';
+
+//$user = 'root';
+//$password = 'root';
+//$db = 'maneapp';
+//$host = 'localhost';
 
 // Create connection
 $conn = new mysqli($host, $user, $password, $db);
